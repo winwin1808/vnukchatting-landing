@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            My Landing Page
+            VNUK CHATTING APP
           </a>{' '}
         </div>
 
@@ -27,33 +27,32 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                FEATURES
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                ABOUT
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
-                Services
+              <a href='#Team' className='page-scroll'>
+                TEAM
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
+              <a href='https://app.vnukchatting.site/login' target='_blank' className='page-scroll' rel="noreferrer">
+                LOGIN
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
+              <a href='https://app.vnukchatting.site/register' target='_blank' className='page-scroll' rel="noreferrer">
+                REGISTER
               </a>
             </li>
-            
           </ul>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
