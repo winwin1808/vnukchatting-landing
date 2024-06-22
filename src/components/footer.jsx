@@ -5,7 +5,7 @@ export const Footer = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2024 Sentiment Analysis Project for Graduation. Make by{' '}
+            &copy; 2024 Sentiment Analysis Project for Graduation. Made by{' '}
             <a href='https://app.vnukchatting.site' rel='nofollow'>
               Hao Nguyen & Thuc Tran
             </a>
