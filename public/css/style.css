@@ -537,6 +537,9 @@ header .intro-text {
 }
 
 /* Team Section */
+#team {
+	padding: 100px 0;
+}
 #team .thumbnail {
 	border: none;
 	border-radius: 0;

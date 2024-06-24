@@ -6,6 +6,7 @@ import { About } from './components/about'
 import { Footer } from './components/footer'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
+import ChatWidget from './components/ChatWidget'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
@@ -29,6 +30,13 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
       <Footer />
+      <ChatWidget
+        adminId="66754b6db4c1c5ee5d326c7b"
+        greeting="Hello! How can we assist you today?"
+        headerName="Tech Support"
+        width="400px"
+        height="600px"
+      />
     </div>
   )
 }
