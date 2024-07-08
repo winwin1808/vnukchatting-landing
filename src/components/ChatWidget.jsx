@@ -29,7 +29,7 @@ const ChatWidget = ({ adminId, greeting, headerName, width, height }) => {
 
 const ChatBubble = styled.div`
   position: fixed;
-  bottom: 60px;
+  bottom: 20px;
   right: 20px;
   width: 60px;
   height: 60px;
@@ -56,7 +56,7 @@ const ChatBubble = styled.div`
 
 const ChatWidgetContainer = styled.div`
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   width: ${({ width }) => width || '400px'};
   height: ${({ height }) => height || '600px'};
