@@ -17,7 +17,7 @@ const ChatWidget = ({ adminId, greeting, headerName, width, height }) => {
         <ChatWidgetContainer width={width} height={height}>
           <CloseButton onClick={toggleWidget}>&times;</CloseButton>
           <iframe
-            src={`https://widget.vnukchatting.site/?adminId=${adminId}&greeting=${encodeURIComponent(greeting)}&headerName=${encodeURIComponent(headerName)}`}
+            src={`http://localhost:3001/?adminId=${adminId}&greeting=${encodeURIComponent(greeting)}&headerName=${encodeURIComponent(headerName)}`}
             title="Chat Widget"
             style={{ width: '100%', height: '100%' }}
           />

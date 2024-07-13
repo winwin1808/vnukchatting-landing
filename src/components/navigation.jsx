@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -49,6 +51,11 @@ export const Navigation = (props) => {
               <a href='https://app.vnukchatting.site/register' target='_blank' className='page-scroll' rel="noreferrer">
                 REGISTER
               </a>
+            </li>
+            <li>
+              <Link to='/docs' className='page-scroll'>
+                DOCS
+              </Link>
             </li>
           </ul>
         </div>
