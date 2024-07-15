@@ -41,7 +41,7 @@ const App = () => {
         </Routes>
         <Footer />
         <ChatWidget
-          adminId="66649e0237a20af83e5a4721"
+          adminId="66754b6db4c1c5ee5d326c7b"
           greeting="Hello! How can we assist you today?"
           headerName="Customer Support"
           width="400px"
